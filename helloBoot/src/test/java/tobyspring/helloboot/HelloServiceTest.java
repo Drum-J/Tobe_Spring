@@ -1,11 +1,23 @@
-package tobespring.helloboot;
+package tobyspring.helloboot;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 //SimpleHelloTest Unit Test
+/*@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@UnitTest
+@interface FastUnitTest{
+
+}
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ ElementType.ANNOTATION_TYPE, ElementType.METHOD })
+@Test
+@interface UnitTest{
+
+}*/
 public class HelloServiceTest {
     @Test
     void simpleHelloService() {
