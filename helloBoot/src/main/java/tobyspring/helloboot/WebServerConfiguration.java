@@ -1,3 +1,4 @@
+/*
 package tobyspring.helloboot;
 
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
@@ -13,4 +14,4 @@ public class WebServerConfiguration {
         serverFactory.setPort(9090);
         return serverFactory;
     }
-}
+}*/
